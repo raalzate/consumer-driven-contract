@@ -31,7 +31,7 @@ public class GetHelloWorldTest
                 .willRespondWith()
                 .status(200)
                 .headers(Configuration.getHeaders())
-                .body(helloWorldResults)
+               // .body(helloWorldResults)
                 .toFragment();
     }
 
